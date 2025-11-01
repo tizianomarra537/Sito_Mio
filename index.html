@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Mio - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar sticky -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="logo-container">
+                <img src="https://via.placeholder.com/200x200?text=Logo" alt="Logo" class="logo">
+                <img src="https://via.placeholder.com/200x80?text=Logo+Text" alt="Logo Text" class="logo-text">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button">
+                            Servizi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                            <li><a class="dropdown-item" href="#">Servizio 2</a></li>
+                            <li><a class="dropdown-item" href="#">Servizio 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-warning">Contattaci</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://via.placeholder.com/1920x500?text=Hero+Background" alt="Hero Background" class="hero-bg">
+        <div class="hero-content">
+            <h1>Benvenuti nel Nostro Sito</h1>
+            <p>Offriamo soluzioni innovative per il tuo business</p>
+            <button class="btn btn-primary btn-lg">Scopri di Più</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h3>I Nostri Servizi</h3>
+            </div>
+        </div>
+
+        <!-- Servizi con effetti hover -->
+        <div class="row justify-content-center g-4">
+            <div class="col-auto">
+                <a href="#" class="text-decoration-none">
+                    <img src="https://via.placeholder.com/150x150?text=Servizio+1" alt="Servizio 1" class="img-fluid rounded shadow">
+                    <div class="text-center mt-3">
+                        <h5>Servizio 1</h5>
+                        <span class="scopri-di-piu">Scopri di più →</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="#" class="text-decoration-none">
+                    <img src="https://via.placeholder.com/150x150?text=Servizio+2" alt="Servizio 2" class="img-fluid rounded shadow">
+                    <div class="text-center mt-3">
+                        <h5>Servizio 2</h5>
+                        <span class="scopri-di-piu">Scopri di più →</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="#" class="text-decoration-none">
+                    <img src="https://via.placeholder.com/150x150?text=Servizio+3" alt="Servizio 3" class="img-fluid rounded shadow">
+                    <div class="text-center mt-3">
+                        <h5>Servizio 3</h5>
+                        <span class="scopri-di-piu">Scopri di più →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Materiali con effetti hover -->
+        <div class="row text-center my-5">
+            <div class="col">
+                <h3>I Nostri Materiali</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/300x200?text=Materiale+1" alt="Materiale 1" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/300x200?text=Materiale+2" alt="Materiale 2" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/300x200?text=Materiale+3" alt="Materiale 3" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contatti</h5>
+                    <p>Email: info@sitomio.it</p>
+                    <p>Tel: +39 123 456 7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Link Utili</h5>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Termini e Condizioni</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Social Media</h5>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p>&copy; 2025 Sito Mio. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
