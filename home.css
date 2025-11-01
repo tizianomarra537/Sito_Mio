@@ -1,0 +1,76 @@
+/* Home.css - Styles for Egidio Carlino Trasporti website */
+
+/* Logo styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.logo-text {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation styles */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0079A4 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #005999 !important;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.25rem;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f8ff;
+  color: #0079A4;
+}
+
+.dropdown-item i {
+  margin-right: 8px;
+  color: #0079A4;
+}
+
+/* Footer styles */
+.footer-custom {
+  background: #f8f9fa;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .logo {
+    height: 40px;
+  }
+  
+  .logo-text {
+    height: 32px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.75rem 1rem;
+  }
+}
