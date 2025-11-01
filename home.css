@@ -1,0 +1,73 @@
+/* General styles for CNSI Trasporti website */
+body {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo-text {
+  height: 40px;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+.navbar .nav-link {
+  color: #222;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #005999;
+}
+
+.navbar .dropdown-menu {
+  border: 1px solid rgba(0, 89, 153, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-item {
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: rgba(0, 89, 153, 0.08);
+  color: #005999;
+}
+
+.navbar .dropdown-item i {
+  margin-right: 8px;
+}
+
+/* Footer styles */
+.footer-custom {
+  border-top: 3px solid #005999;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+  }
+  
+  .logo-text {
+    height: 35px;
+  }
+}
