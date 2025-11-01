@@ -1,0 +1,16 @@
+/* Placeholder CSS file for home.css */
+/* Add your custom styles here */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-text {
+  height: 40px;
+}
