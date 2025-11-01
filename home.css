@@ -1,0 +1,70 @@
+/* Logo styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo-text {
+  height: 45px;
+}
+
+/* Navigation styles */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0079A4 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #005999 !important;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  border: 1px solid rgba(0, 89, 153, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dropdown-item {
+  padding: 0.6rem 1.2rem;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 121, 164, 0.08);
+  color: #005999;
+}
+
+.dropdown-item i {
+  margin-right: 8px;
+  color: #0079A4;
+}
+
+/* Footer styles */
+.footer-custom {
+  border-top: 3px solid #0079A4;
+}
+
+.footer-custom a:hover {
+  color: #0079A4 !important;
+  text-decoration: underline !important;
+}
+
+/* General styles */
+body {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
